@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Wallet — Compre melhor. Controle seu dinheiro.</title>
+  <meta name="description" content="O Smart Wallet é o app que une sua lista de compras com o controle financeiro." />
+
+  <!-- Fonte utilizada no site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (ícones de iOS, Android, avaliações, etc.) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =============================== -->
+  <!-- CABEÇALHO / MENU DE NAVEGAÇÃO   -->
+  <!-- Cada link do menu aponta para o id da seção correspondente -->
+  <!-- =============================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="#inicio" class="logo">
+        <span class="logo-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="6" width="20" height="14" rx="3" fill="#16A34A"/>
+            <rect x="2" y="4" width="14" height="6" rx="2" fill="#0F2540"/>
+            <circle cx="17" cy="13" r="2" fill="#ffffff"/>
+          </svg>
+        </span>
+        <span class="logo-text">Smart <strong>Wallet</strong></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#funcionalidades">Funcionalidades</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#baixar">Baixar App</a></li>
+        </ul>
+      </nav>
+
+      <a href="#baixar" class="btn btn-primary btn-small header-cta">Comece agora</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =============================== -->
+    <!-- HERO                            -->
+    <!-- =============================== -->
+    <section class="hero" id="inicio">
+      <div class="container hero-inner">
+
+        <div class="hero-content">
+          <span class="badge">Sua vida financeira em um só lugar</span>
+
+          <h1 class="hero-title">
+            Compre melhor.<br />
+            <span class="hero-title-highlight">Controle seu dinheiro.</span>
+          </h1>
+
+          <p class="hero-text">
+            O <strong>Smart Wallet</strong> é o app que une sua lista de compras
+            com o controle financeiro. Acompanhe seus gastos, organize suas
+            contas e tenha mais praticidade no seu dia a dia.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#baixar" class="btn btn-primary btn-download">
+              <i class="fa-solid fa-download" aria-hidden="true"></i> Baixar agora
+            </a>
+          </div>
+
+          <div class="store-buttons store-buttons--compact">
+            <a href="#baixar" class="store-button">
+              <i class="fa-brands fa-apple" aria-hidden="true"></i>
+              <span><small>Baixar na</small>App Store</span>
+            </a>
+            <a href="#baixar" class="store-button">
+              <i class="fa-brands fa-google-play" aria-hidden="true"></i>
+              <span><small>Disponível no</small>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img
+            class="hero-app-preview"
+            src="assets/images/hero-smart-wallet.svg"
+            alt="Telas do Smart Wallet exibindo saldo disponível, compras recentes e lista de supermercado"
+            width="1000"
+            height="760"
+          />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- FUNCIONALIDADES                 -->
+    <!-- =============================== -->
+    <section class="features" id="funcionalidades">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Funcionalidades</span>
+          <h2>Tudo o que você precisa para organizar sua vida financeira</h2>
+          <p>Recursos simples e inteligentes para acompanhar compras, gastos e sua rotina em um único lugar.</p>
+        </div>
+
+        <ul class="features-grid">
+
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 8H6" stroke="#16A34A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.4" fill="#16A34A"/><circle cx="17" cy="20" r="1.4" fill="#16A34A"/></svg>
+            </span>
+            <h3>Lista de compras inteligente</h3>
+            <p>Crie listas, reutilize modelos e acompanhe o saldo em tempo real.</p>
+          </li>
+
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="13" rx="2" stroke="#16A34A" stroke-width="1.8"/><path d="M3 9h18" stroke="#16A34A" stroke-width="1.8"/><circle cx="17" cy="14" r="1.4" fill="#16A34A"/></svg>
+            </span>
+            <h3>Controle financeiro</h3>
+            <p>Gerencie suas contas, cartões e acompanhe seus gastos por categoria.</p>
+          </li>
+
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="6" height="6" rx="1" stroke="#16A34A" stroke-width="1.8"/><rect x="15" y="3" width="6" height="6" rx="1" stroke="#16A34A" stroke-width="1.8"/><rect x="3" y="15" width="6" height="6" rx="1" stroke="#16A34A" stroke-width="1.8"/><path d="M15 15h2v2h-2zM19 15h2v2h-2zM15 19h2v2h-2zM19 19h2v2h-2z" fill="#16A34A"/></svg>
+            </span>
+            <h3>Leitura de QR Code</h3>
+            <p>Escaneie notas fiscais e adicione suas compras automaticamente.</p>
+          </li>
+
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M11 20V4M18 20v-7" stroke="#16A34A" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Relatórios e insights</h3>
+            <p>Entenda seus hábitos e tome decisões melhores para o seu dinheiro.</p>
+          </li>
+
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="#16A34A" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Seguro e confiável</h3>
+            <p>Seus dados protegidos com tecnologia de ponta e criptografia.</p>
+          </li>
+
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M7 17a4 4 0 0 1-1-7.9A5 5 0 0 1 15.6 8 4.5 4.5 0 0 1 17 17H7z" stroke="#16A34A" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Sincronização total</h3>
+            <p>Acesse de onde quiser, em qualquer dispositivo.</p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- COMO FUNCIONA                                          -->
+    <!-- Sem imagens: cards no mesmo estilo visual das           -->
+    <!-- "Funcionalidades", com um selo numerado para manter     -->
+    <!-- a ideia de sequência.                                   -->
+    <!-- =============================== -->
+    <section class="how-it-works" id="como-funciona">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">Como funciona</span>
+          <h2>Em poucos passos, mais controle para você</h2>
+          <p>
+            É simples, rápido e fácil de usar. Veja como o Smart Wallet pode
+            transformar sua rotina de compras e finanças:
+          </p>
+          <a href="#baixar" class="btn btn-primary btn-download">
+            <i class="fa-solid fa-download" aria-hidden="true"></i> Baixar agora
+          </a>
+        </div>
+
+        <ol class="steps-grid">
+
+          <li class="step-card">
+            <span class="step-number" aria-hidden="true">1</span>
+            <span class="step-icon" aria-hidden="true"><i class="fa-solid fa-list-check"></i></span>
+            <h3>Crie sua lista</h3>
+            <p>Adicione os produtos que você precisa comprar.</p>
+          </li>
+
+          <li class="step-card">
+            <span class="step-number" aria-hidden="true">2</span>
+            <span class="step-icon" aria-hidden="true"><i class="fa-solid fa-tag"></i></span>
+            <h3>Informe o valor</h3>
+            <p>Digite o preço e veja o saldo sendo atualizado.</p>
+          </li>
+
+          <li class="step-card">
+            <span class="step-number" aria-hidden="true">3</span>
+            <span class="step-icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></span>
+            <h3>Acompanhe seus gastos</h3>
+            <p>Tudo fica registrado automaticamente.</p>
+          </li>
+
+          <li class="step-card">
+            <span class="step-number" aria-hidden="true">4</span>
+            <span class="step-icon" aria-hidden="true"><i class="fa-solid fa-face-smile"></i></span>
+            <h3>Tenha mais liberdade</h3>
+            <p>Mais organização, menos preocupação com dinheiro.</p>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- DEPOIMENTOS                     -->
+    <!-- =============================== -->
+    <section class="testimonials" id="depoimentos">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">Depoimentos</span>
+          <h2>Quem usa, recomenda</h2>
+          <p>Veja o que dizem as pessoas que já organizaram a vida financeira com o Smart Wallet.</p>
+        </div>
+
+        <ul class="testimonials-grid">
+
+          <li class="testimonial-card">
+            <i class="fa-solid fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
+            <div class="testimonial-rating" aria-hidden="true">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">Parei de perder o controle no fim do mês. Agora sei exatamente para onde vai cada real que eu ganho.</p>
+            <div class="testimonial-author">
+              <i class="fa-solid fa-circle-user" aria-hidden="true"></i>
+              <div>
+                <strong>Camila Duarte</strong>
+                <span>Usuária desde 2025</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="testimonial-card">
+            <i class="fa-solid fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
+            <div class="testimonial-rating" aria-hidden="true">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">A lista de compras junto com o saldo é o que faltava. Economizo bem mais indo ao mercado com o app.</p>
+            <div class="testimonial-author">
+              <i class="fa-solid fa-circle-user" aria-hidden="true"></i>
+              <div>
+                <strong>Rafael Nunes</strong>
+                <span>Usuário desde 2024</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="testimonial-card">
+            <i class="fa-solid fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
+            <div class="testimonial-rating" aria-hidden="true">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="testimonial-text">Interface simples e os relatórios me ajudaram a cortar gastos que eu nem percebia que tinha.</p>
+            <div class="testimonial-author">
+              <i class="fa-solid fa-circle-user" aria-hidden="true"></i>
+              <div>
+                <strong>Juliana Prado</strong>
+                <span>Usuária desde 2025</span>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- SEU DINHEIRO, MAIS ORGANIZADO   -->
+    <!-- =============================== -->
+    <section class="stats">
+      <div class="container stats-inner">
+
+        <div class="stats-media">
+          <img
+            class="stats-app-preview"
+            src="assets/images/finance-insights.svg"
+            alt="Ilustração da tela do app mostrando o gráfico de gastos por categoria"
+            width="600"
+            height="680"
+          />
+        </div>
+
+        <div class="stats-content">
+          <span class="eyebrow">Seu dinheiro, mais organizado</span>
+          <h2>Mais praticidade, economia e tranquilidade no seu dia a dia.</h2>
+
+          <ul class="stats-grid">
+            <li class="stat-item">
+              <span class="stat-icon" aria-hidden="true"><i class="fa-solid fa-clipboard-check"></i></span>
+              <strong class="stat-number">100%</strong>
+              <span class="stat-label">Controle das suas finanças</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-icon" aria-hidden="true"><i class="fa-solid fa-sack-dollar"></i></span>
+              <strong class="stat-number">-30%</strong>
+              <span class="stat-label">Gastos desnecessários</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-icon" aria-hidden="true"><i class="fa-solid fa-circle-check"></i></span>
+              <strong class="stat-number">+50%</strong>
+              <span class="stat-label">Organização no seu dia a dia</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></span>
+              <strong class="stat-number">100%</strong>
+              <span class="stat-label">Segurança dos seus dados</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- BAIXAR APP — chamada final, bem visível  -->
+    <!-- =============================== -->
+    <section class="download-cta" id="baixar">
+      <div class="download-cta-glow" aria-hidden="true"></div>
+
+      <div class="container download-cta-inner">
+        <span class="badge badge--light">Disponível para iOS e Android</span>
+
+        <h2>Baixe o Smart Wallet e comece a controlar seu dinheiro hoje</h2>
+        <p>Grátis para baixar. Leva menos de 2 minutos para configurar sua primeira lista de compras.</p>
+
+        <div class="store-buttons">
+          <a href="#" class="store-button">
+            <i class="fa-brands fa-apple" aria-hidden="true"></i>
+            <span><small>Baixar na</small>App Store</span>
+          </a>
+          <a href="#" class="store-button">
+            <i class="fa-brands fa-google-play" aria-hidden="true"></i>
+            <span><small>Disponível no</small>Google Play</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================== -->
+  <!-- RODAPÉ                          -->
+  <!-- =============================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Smart Wallet — © 2026 Smart Wallet. Todos os direitos reservados.</span>
+      <nav class="footer-nav">
+        <a href="#">Termos de Uso</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Suporte</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

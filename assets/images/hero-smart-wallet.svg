@@ -1,0 +1,34 @@
+<svg width="1000" height="760" viewBox="0 0 1000 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGreen" x1="260" y1="120" x2="730" y2="610" gradientUnits="userSpaceOnUse"><stop stop-color="#19BF70"/><stop offset="1" stop-color="#059669"/></linearGradient>
+    <linearGradient id="heroBlue" x1="128" y1="512" x2="384" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#D9F0FF"/><stop offset="1" stop-color="#B9DEFF"/></linearGradient>
+    <filter id="heroShadow" x="0" y="0" width="1000" height="760" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#0F2540" flood-opacity=".18"/></filter>
+  </defs>
+  <path d="M156 173C156 85 227 32 315 32H690C793 32 876 115 876 218V474C876 577 793 660 690 660H336C237 660 156 580 156 481V173Z" fill="url(#heroGreen)" opacity=".18"/>
+  <circle cx="816" cy="116" r="54" fill="#16A34A"/><path d="M796 101H806L811 126H838L843 106H808" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="816" cy="142" r="4" fill="white"/><circle cx="837" cy="142" r="4" fill="white"/>
+  <g filter="url(#heroShadow)" transform="rotate(-5 332 380)">
+    <rect x="150" y="85" width="356" height="594" rx="45" fill="#0E1726"/>
+    <rect x="161" y="98" width="334" height="568" rx="35" fill="#FFF"/>
+    <rect x="276" y="108" width="104" height="25" rx="13" fill="#0E1726"/>
+    <text x="189" y="166" fill="#0F2540" font-family="Arial, sans-serif" font-size="18" font-weight="700">Olá, Marina</text>
+    <rect x="184" y="187" width="288" height="149" rx="22" fill="url(#heroGreen)"/>
+    <text x="207" y="226" fill="white" font-family="Arial, sans-serif" font-size="15">Saldo disponível</text><text x="207" y="270" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="700">R$ 1.250,00</text>
+    <rect x="207" y="289" width="138" height="8" rx="4" fill="white" fill-opacity=".72"/>
+    <text x="188" y="376" fill="#64748B" font-family="Arial, sans-serif" font-size="13">Gastos do mês</text><text x="188" y="401" fill="#0F2540" font-family="Arial, sans-serif" font-size="20" font-weight="700">R$ 750,00</text>
+    <text x="338" y="376" fill="#64748B" font-family="Arial, sans-serif" font-size="13">Orçamento</text><text x="338" y="401" fill="#0F2540" font-family="Arial, sans-serif" font-size="20" font-weight="700">R$ 2.000,00</text>
+    <text x="188" y="447" fill="#0F2540" font-family="Arial, sans-serif" font-size="17" font-weight="700">Compras recentes</text>
+    <circle cx="204" cy="482" r="15" fill="#DDF7E8"/><rect x="198" y="475" width="12" height="12" rx="3" fill="#16A34A"/><text x="233" y="486" fill="#0F2540" font-family="Arial, sans-serif" font-size="14" font-weight="700">Supermercado</text><text x="407" y="486" fill="#64748B" font-family="Arial, sans-serif" font-size="13">R$ 243</text>
+    <circle cx="204" cy="528" r="15" fill="#E5F0FF"/><path d="M198 528h12" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/><text x="233" y="532" fill="#0F2540" font-family="Arial, sans-serif" font-size="14" font-weight="700">Farmácia</text><text x="407" y="532" fill="#64748B" font-family="Arial, sans-serif" font-size="13">R$ 89</text>
+    <rect x="184" y="582" width="288" height="55" rx="18" fill="#F1F5F9"/><path d="M218 608h18M227 599v18" stroke="#16A34A" stroke-width="4" stroke-linecap="round"/><text x="252" y="613" fill="#0F2540" font-family="Arial, sans-serif" font-size="15" font-weight="700">Adicionar compra</text>
+  </g>
+  <g filter="url(#heroShadow)" transform="rotate(7 665 396)">
+    <rect x="492" y="133" width="342" height="570" rx="44" fill="#0E1726"/>
+    <rect x="503" y="145" width="320" height="546" rx="34" fill="#FFF"/>
+    <rect x="600" y="155" width="126" height="25" rx="13" fill="#0E1726"/>
+    <path d="M536 218h14M543 211v14" stroke="#0F2540" stroke-width="3" stroke-linecap="round"/><text x="573" y="224" fill="#0F2540" font-family="Arial, sans-serif" font-size="19" font-weight="700">Lista de compras</text>
+    <text x="535" y="270" fill="#0F2540" font-family="Arial, sans-serif" font-size="18" font-weight="700">Supermercado</text><text x="535" y="292" fill="#64748B" font-family="Arial, sans-serif" font-size="13">6 itens · R$ 263,10</text>
+    <g font-family="Arial, sans-serif" font-size="15" fill="#0F2540"><rect x="535" y="324" width="22" height="22" rx="5" stroke="#16A34A" stroke-width="3"/><text x="578" y="342">Arroz</text><text x="752" y="342" fill="#64748B">R$ 25</text><rect x="535" y="374" width="22" height="22" rx="5" stroke="#16A34A" stroke-width="3"/><text x="578" y="392">Feijão</text><text x="752" y="392" fill="#64748B">R$ 9</text><rect x="535" y="424" width="22" height="22" rx="5" stroke="#16A34A" stroke-width="3"/><text x="578" y="442">Café</text><text x="752" y="442" fill="#64748B">R$ 15</text><rect x="535" y="474" width="22" height="22" rx="5" stroke="#16A34A" stroke-width="3"/><text x="578" y="492">Leite</text><text x="752" y="492" fill="#64748B">R$ 7</text></g>
+    <rect x="530" y="574" width="266" height="64" rx="18" fill="#16A34A"/><text x="590" y="613" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">+ Adicionar item</text>
+  </g>
+  <g transform="rotate(-18 110 555)"><rect x="55" y="505" width="128" height="87" rx="16" fill="url(#heroBlue)"/><rect x="71" y="530" width="47" height="11" rx="5" fill="#2563EB"/><rect x="71" y="552" width="88" height="8" rx="4" fill="#71AFFF"/><circle cx="151" cy="535" r="13" fill="#16A34A"/></g>
+</svg>
